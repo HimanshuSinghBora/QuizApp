@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">quizApp</string>
+    <string name="a">Q1-Android is-\n<b>a-an operating system</b>\n<b>b-a web browser</b>\n<b>c-a web server</b>\n<b>d-None of the above</b>\n</string>
+    <string name="b">Q2-Under which of the following Android is licensed?\n<b>a-OSS</b>\n<b>b-Sourceforge</b>\n<b>c-Apache/MIT</b>\n<b>d-None of the above</b>\n</string>
+    <string name="c">Q3-For which of the following Android is mainly developed?\n<b>a-Servers</b>\n<b>b-Desktops</b>\n<b>c-Laptops</b>\n<b>d-Mobiles</b>\n</string>
+    <string name="d">Q4-Which of the following is the first mobile phone released that ran the Android OS?\n<b>a-HTC Hero</b>\n<b>b-Google gPhone</b>\n<b>c-T-Mobile G1</b>\n<b>d-None of the above</b>\n</string>
+    <string name="e">Q5-Which of the following virtual machine is used by the Android operating system?\n<b>a-JVM</b>\n<b>b-Dalvik virtual machine</b>\n<b>c-Simple virtual machine</b>\n<b>d-None of the above</b>\n</string>
+    <string name="f">Q6-Android is based on which of the following language?\n<b>a-Java</b>\n<b>b-C++</b>\n<b>c-C</b>\n<b>d-None of the above</b>\n</string>
+    <string name="g">Q7-APK stands for -\n<b>a-Android Phone Kit</b>\n<b>b-Android Page Kit</b>\n<b>c-Android Package Kit</b>\n<b>d-None of the above</b>\n</string>
+    <string name="h">Q8-What does API stand for?\n<b>a-Application Programming Interface</b>\n<b>b-Android Programming Interface</b>\n<b>c-Android Page Interface</b>\n<b>d-Application Page Interface</b>\n</string>
+    <string name="i">Q9-Which of the following converts Java byte code into Dalvik byte code?\n<b>a-Dalvik converter</b>\n<b>b-Dex compiler</b>\n<b>c-Mobile Interpretive compiler(MIC)</b>\n<b>d-None of the above</b>\n</string>
+    <string name="j">Q10-How can we stop the services in android?\n<b>a-By using the stopSelf() and stopService() method</b>\n<b>b-By using finish() method</b>\n<b>c-By using system.exit() method</b>\n<b>d-None of the above</b>\n</string>
+    <string name="correct"><b>CORRECTNESS IS</b> \n
+                           <b>%1$d</b> OUT OF 10</string>
+    <string name="A">a</string>
+    <string name="B">b</string>
+    <string name="C">c</string>
+    <string name="D">d</string>
+    <string name="prev_text">PREVIOUS</string>
+    <string name="next_text">NEXT</string>
+    <string name="correct_answer">CORRECT</string>
+    <string name="wrong_answer">WRONG</string>
+
+    </resources>

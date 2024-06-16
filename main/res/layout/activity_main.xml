@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Using linear layout with vertical orientation and center gravity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--ImageView used for showing pictures along with questions-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#050505" />
+
+    <ImageView
+        android:id="@+id/myimage"
+        android:layout_width="294dp"
+        android:layout_height="136dp"
+        android:src="@drawable/f1" />
+
+    <!--TextView used for showing questions on screen-->
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/a"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <!--Using another LinearLayout for showing buttons
+            in horizontal orientation-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/optionA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#5BD91B"
+                android:text="@string/A"
+                android:textSize="20sp" />
+
+            <!--FalseButton-->
+            <Button
+                android:id="@+id/optionB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="#5BD91B"
+                android:text="@string/B"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/optionC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#5BD91B"
+                android:text="@string/C"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/optionD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="#5BD91B"
+                android:text="@string/D"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!--TrueButton-->
+
+
+        <!--FalseButton-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--PreviousButton-->
+
+        <!--NextButton-->
+        <ImageButton
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DFD2D1"
+            android:src="@drawable/backward"
+            android:text="@string/prev_text" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DFD2D1"
+            android:src="@drawable/forward"
+            android:text="@string/next_text" />
+
+    </LinearLayout>
+
+</LinearLayout>
